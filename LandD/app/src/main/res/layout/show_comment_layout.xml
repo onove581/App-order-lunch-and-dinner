@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="8dp"
+    android:backgroundTint="#FF9800"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtUserphone"
+            android:text="User phone"
+            android:textColor="@color/colordefault"
+
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Rating:"
+            android:textColor="@color/colordefault"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+
+            />
+        <RatingBar
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/showratingbar"
+            android:progressTint="@color/colordefault"
+            android:progressBackgroundTint="@color/white"
+            android:secondaryProgressTint="@color/colordefault"
+            android:rating="3"
+
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Common"
+        android:textColor="@color/colordefault"
+        android:textSize="15dp"
+
+        />
+    <TextView
+        android:id="@+id/txtshowcomm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show"
+        android:textColor="@color/colordefault"
+
+        />
+</LinearLayout>
+</androidx.cardview.widget.CardView>

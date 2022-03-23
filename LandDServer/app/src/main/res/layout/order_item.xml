@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:elevation="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+        <TextView
+            android:id="@+id/order_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Date"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+
+            />
+
+        <TextView
+            android:id="@+id/order_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:padding="4dp"
+            android:textSize="16sp"
+            android:layout_below="@id/order_date"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/order_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shipping"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@id/order_id"
+            android:padding="4dp"
+            android:textSize="16sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/order_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_03234380625"
+            android:layout_below="@id/order_status"
+            android:padding="4dp"
+            android:textSize="16sp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/order_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/walton_road"
+            android:layout_below="@id/order_phone"
+            android:padding="4dp"
+            android:textSize="16sp"
+            android:textStyle="normal"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp"
+        >
+        <Button
+            android:id="@+id/buttonedit"
+            android:text="Edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#fff"
+            android:textColor="#F06941"
+            android:backgroundTint="#fff"
+
+/>
+        <Button
+            android:id="@+id/buttonremove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#fff"
+            android:textColor="#F06941"
+            android:backgroundTint="#fff"
+            android:text="Remove"
+
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#fff"
+            android:textColor="#F06941"
+            android:backgroundTint="#fff"
+            android:text="Details"
+            android:id="@+id/buttondetail"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#fff"
+            android:textColor="@color/black"
+            android:backgroundTint="#fff"
+            android:text=""
+            android:id="@+id/buttondirection"
+
+            />
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

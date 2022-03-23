@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "465931870330",
+    "project_id": "landd-c2f0f",
+    "storage_bucket": "landd-c2f0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465931870330:android:6fd9e64839ae53a62a5bc3",
+        "android_client_info": {
+          "package_name": "com.example.landd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465931870330-ums8g967esvljjl7pgui5h6jjisdupr5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.landd",
+            "certificate_hash": "4901c4ec9db4e2bbafbf242f3ddb423673d3e06a"
+          }
+        },
+        {
+          "client_id": "465931870330-sbcqgkjt32cd5ge1i8e4o474bbrabun3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANVnTOpOVAv9wQ-UcPprdJA0yhqUomTnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465931870330-sbcqgkjt32cd5ge1i8e4o474bbrabun3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

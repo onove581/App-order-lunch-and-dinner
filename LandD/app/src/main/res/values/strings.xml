@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">LandD</string>
+    <string name="fullname">Name</string>
+    <string name="welcome">Welcome to  </string>
+    <string name="top_icon">TOP ICON</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="or">OR</string>
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="new_user_register_now">New User? Register Now</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="orders">Orders</string>
+    <string name="cart">Cart</string>
+    <string name="my_name">DvBI</string>
+    <string name="menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="image">Image</string>
+    <string name="food_description">Food Description</string>
+    <string name="_0_00">$0.00</string>
+    <string name="place_order">Place Order</string>
+    <string name="_1_000">$1,000</string>
+    <string name="name">Name</string>
+    <string name="_03234380625">03234380625</string>
+    <string name="walton_road">Walton Road</string>
+    <string name="shipping">shipping</string>
+    <string name="facebook">502167684538311</string>
+    <string name="facebook_login">fb502167684538311</string>
+    <string name="title_activity_show_comment">Show_comment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_tracking__order">Map</string>
+</resources>

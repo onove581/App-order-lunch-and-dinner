@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:elevation="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/or_address"
+            android:hint="Address"
+            android:textColorHint="@color/colorAccent"
+            android:text=""
+            android:textSize="32sp"
+            android:inputType="text"
+            app:met_baseColor="@color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorAccent"
+            app:met_singleLineEllipsis="true"
+
+
+/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_marginTop="100sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/or_comment"
+            android:hint="Comment"
+            android:textColorHint="@color/colorAccent"
+            android:text=""
+            android:textSize="32sp"
+            android:inputType="textMultiLine"
+            app:met_baseColor="@color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorAccent"
+            app:met_singleLineEllipsis="true"
+
+
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
